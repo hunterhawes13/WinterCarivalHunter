@@ -5,7 +5,7 @@ export default class CreateComment extends React.Component {
   render() {
     return (
     	<form onSubmit={this.handleCreate.bind(this)}>
-      <input type="text" placeholder="Type Comment Here" ref="createInput" />
+      <input style={inputStyle} type="text" placeholder="Type Comment Here" ref="createInput" />
       <button>Submit</button>
      	</form>
           );
@@ -17,5 +17,10 @@ export default class CreateComment extends React.Component {
   		this.props.createChat(this.refs.createInput.value);
   		this.refs.createInput.value=""
   }
+
+}
+
+const inputStyle = {
+	width: "inherit"
 
 }

@@ -1,8 +1,34 @@
 body {
-	font-family: "Helvetica-LightOblique", "Sans-Serif";
+
+	background: url("http://i.imgur.com/t9iFnmM.png")
+               no-repeat scroll right center #4BB1EB;
+	background-position: center left;
+	padding:35px;
+	background-repeat: no-repeat;
+	font-family: "Helvetica", "Sans-Serif";
+	background-color: #4BB1EB;
+	color: white;
+	margin: 0px auto;
+	background-position: center;
+
+
+text-shadow: 1.4px 2px 0px black;
+
 }
 
 img {
-	width: 200px;
 	padding-bottom: 10px;
+}
+
+
+h1 {
+	text-align: center;
+}
+
+table {
+height: 300px;
+	}	
+
+form {
+	text-align: center;
 }

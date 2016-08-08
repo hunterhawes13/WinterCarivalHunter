@@ -1,14 +1,21 @@
 import React from 'react';
 
+var tommyStyle = {
+	width:"400px",
+}
 
 export default class NoMatch extends React.Component {
 
   render() {
     return (
       <div>
-        <h1>Doh!</h1>
-        <img src="http://yiyinglu.com/failwhale/images/Homer_the_New_Fail_Whale_by_edwheeler.jpg" alt="fail homer" />
-        <div>We couldn't find what you were looking for. You probably want to <a href="/">start over</a>.</div>
+
+        <h4>Hopefully your hunting skills are better than your navigation</h4>
+        
+        <img style={tommyStyle} src="http://i.imgur.com/7eduoje.png" />
+
+        
+        <div>You probably want to <a href="/">start over</a>.</div>
       </div>    );
   }
 }
