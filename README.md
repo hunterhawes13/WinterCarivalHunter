@@ -1,13 +1,16 @@
-# WinterCarivalHunter
+## Synopsis
 
-for classmates the component class is 
+A chat app for The St Paul Pioneer Press' Treasure Hunter during the Winter Carnival. Help Treasure Hunters discuss and decipher clues. Functionality includes the abilty to highlight messages you find important. Delete those you find useless. Notify the sender you like their message.
 
-App
-  CommentList
-    CreateComment
-    CommentList2
-      ChatHeader
-      Comment
-      
-      
-      some src components files arent being used but havent deleted sorry for confusion
+## Contributors
+
+Hunter Hawes
+github: hunterhawes13
+twitter: @tikishackfun
+
+## License
+
+This project is licensed under the terms of the MIT license.
+
+## Warning
+This should not be used in production. It is for demonstration purposes only.
