@@ -4,7 +4,7 @@ import ChatHeader from './ChatHeader.jsx';
 import Comment from './Comment.jsx';
 
 const tableStyle =  { 
-  border: "hidden",
+  border: "none",
   borderCollapse: "colapse",
   borderSpacing: "0",
   tableLayout: "fixed",
@@ -14,18 +14,19 @@ const tableStyle =  {
      };
 const colOne = {
   "vertical-align": "top",
-  backgroundColor: "red",
+  backgroundColor: "#3F9BDA",
   width: "15%",
 
 };
 const colTwo = {
-backgroundColor: "blue",
+
 "vertical-align": "top"
 
 };
 const colThree = {
   "vertical-align": "top",
-backgroundColor: "yellow",
+backgroundColor: "AliceBlue",
+backgroundOpacity: ".7",
   width: "15%",
   minWidth: "100px",
 };
@@ -36,7 +37,8 @@ export default class CommentList2 extends React.Component {
 	renderItems() {
 		const props = _.omit(this.props, 'chats');
 
-		return _.map(this.props.chats, (comment, index) => <Comment key={comment.id} user={comment.user} chat={comment.chat} isImportant={comment.isImportant} {...props}/>);
+		return _.map(this.props.chats, (comment, index) => <Comment key={index} user={comment.user} 
+      chat={comment.chat} isImportant={comment.isImportant} {...props}/>);
 
 	 // function(comment, index) {
 		// return <Comment key{/>

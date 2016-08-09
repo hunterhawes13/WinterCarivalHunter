@@ -26,9 +26,12 @@ h1 {
 }
 
 table {
-height: 300px;
 	}	
 
 form {
 	text-align: center;
+}
+
+#root {
+	overflow-y: scroll;
 }
